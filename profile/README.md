@@ -23,16 +23,17 @@ curl -X POST https://api.arcnm.io/api/v1/calculations/upload-and-quote \
   -F "lot_size=50"
 ```
 
-Everything the dashboard does, the API does. **142 endpoints**, a public
-OpenAPI spec, and an MCP server so Claude, Cursor or your own agent can quote a
-part, rank its cost drivers and read the process plan as typed tools.
+Everything the dashboard does, the API does: a public OpenAPI spec, and an MCP
+server so Claude, GitHub Copilot, Cursor or your own agent can quote a part,
+rank its cost drivers and read the process plan as typed tools.
 
 ```json
 { "mcpServers": { "arcnm": { "url": "https://api.arcnm.io/mcp-server/mcp" } } }
 ```
 
 Listed in the [MCP Registry](https://registry.modelcontextprotocol.io) as
-`io.arcnm/arcnm`.
+`io.arcnm/arcnm` · setup for every client and the full tool list:
+[arcnm-mcp](https://github.com/arcnm/arcnm-mcp).
 
 ---
 
