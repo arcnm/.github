@@ -35,6 +35,11 @@ Listed in the [MCP Registry](https://registry.modelcontextprotocol.io) as
 `io.arcnm/arcnm` · setup for every client and the full tool list:
 [arcnm-mcp](https://github.com/arcnm/arcnm-mcp).
 
+**No account? Pay per call.** An agent pays EUR 0.89 per calculation, VAT
+included, inside the MCP call (x402, USDC on Base) at
+`https://api.arcnm.io/mcp-server/pay/mcp`. The price check is free and a failed
+calculation is never charged · [pay-per-call guide](https://arcnm.io/docs/pay-per-call).
+
 ---
 
 ### Start here
